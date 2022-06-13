@@ -26,19 +26,19 @@ body {
 .banner1 {
     grid-area: banner1;
     display: flex;
-    background-color: #e56353;
+    background-color: $pink;
     height: 200px;
     align-items: center;
     justify-content: center;
     &__tittle {
         font-size: 50px;
-        color: #fff;
+        color: $gray-100;
     }
 }
 
 .banner2 {
     grid-area: banner2;
-    background-color: #e56353;
+    background-color: $pink;
     display: flex;
     height: 200px;
     align-items: center;
@@ -47,13 +47,13 @@ body {
     gap: 20px;
     &__tittle {
         font-size: 40px;
-        color: #fff;
+        color: $gray-100;
     }
     &__button {
         width: 200px;
         height: 30px;
         border-radius: 15px;
-        border-color: #fff;
-        background-color: #fff;
+        border-color: $gray-100;
+        background-color: $gray-100;
     }
 }

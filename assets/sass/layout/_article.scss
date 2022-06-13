@@ -1,6 +1,6 @@
 .article {
     grid-area: article;
-    background-color: #fff;
+    background-color: $gray-100;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,16 +10,16 @@
         margin-top: 80px;
     }
     &__tittle {
-        color: #686963;
+        color: $gray-700;
         font-size: 50px;
     }
     &__text1 {
-        color: #686963;
+        color: $gray-700;
         width: 50%;
         text-align: left;
     }
     &__text2 {
-        color: #686963;
+        color: $gray-700;
         width: 50%;
         text-align: left;
         margin-bottom: 60px;
