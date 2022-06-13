@@ -1,0 +1,28 @@
+.section {
+    grid-area: section;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    &__foto {
+        width: 1700px;
+        margin-top: 60px;
+    }
+    &__tittle {
+        color: #686963;
+        font-size: 50px;
+    }
+    &__text1 {
+        color: #686963;
+        width: 50%;
+        text-align: left;
+    }
+    &__text2 {
+        color: #686963;
+        width: 50%;
+        text-align: left;
+        margin-bottom: 60px;
+    }
+}

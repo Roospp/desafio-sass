@@ -1,0 +1,10 @@
+@import 'header';
+@import 'nav';
+@import 'main';
+@import 'section';
+@import 'article';
+@import 'footer';
+.grid-container {
+    display: grid;
+    grid-template-areas: "header" "navbar" "main" "section" "banner1" "article" "banner2" "footer";
+}

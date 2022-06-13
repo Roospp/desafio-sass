@@ -1,0 +1,17 @@
+.navbar {
+    grid-area: navbar;
+    display: flex;
+    flex-direction: column;
+    background-color: #e97f72;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    &__text {
+        font-size: 70px;
+        color: #fafafa;
+    }
+    &__tittle {
+        font-size: 100px;
+        color: white;
+    }
+}
